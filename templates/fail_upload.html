@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="static/css/sb-admin-2.min.css" rel="stylesheet">
+  </head>
+ 
+    <center>
+    <h1 >your file does not complie it needs to be CSV only with column "Date" and "Users" </h1>
+    
+ 
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input class="btn btn-primary" type="file" id="myFile" name="uploaded-file" accept=".csv" >
+        <input class="btn btn-primary" type="submit" value="Upload file">
+        
+    </form>
+    
+    
+  <br>
+  
+    <a href="/predict"><input class="btn btn-primary" type="submit" , value='predict' >
+    <a href="/score"><input class="btn btn-primary" type="submit" , value='check model score' >
+      <a href="/"><input class="btn btn-primary" type="submit" , value='home' >
+  </center>
+  </body>
+</html>
